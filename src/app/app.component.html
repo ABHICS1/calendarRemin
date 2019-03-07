@@ -1,21 +1,69 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
-</div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/cli">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
 
-<router-outlet></router-outlet>
+<html>
+  <head>
+  <style>
+  </style>
+  </head>
+  <body>
+  
+  <h1>{{title}}</h1>
+  <h2>Select date and scroll down to add reminder</h2>
+  
+  <div class="month">      
+    <ul>
+      <button class="prev">&#10094;</button>
+      <button class="next">&#10095;</button>
+      <li>
+        August<br>
+        <span>2019</span>
+      </li>
+    </ul>
+  </div>
+  
+  <ul class="weekdays">
+    <li>Mo</li>
+    <li>Tu</li>
+    <li>We</li>
+    <li>Th</li>
+    <li>Fr</li>
+    <li>Sa</li>
+    <li>Su</li>
+  </ul>
+  
+  <ul class="days">  
+    <button routerLink="a1">1</button>
+    <button routerLink="a2">2</button>
+    <button routerLink="a3">3</button>
+    <button routerLink="a4">4</button>
+    <button routerLink="a5">5</button>
+    <button routerLink="a6">6</button>
+    <button routerLink="a7">7</button>
+    <button routerLink="a8">8</button>
+    <button routerLink="a9">9</button>
+    <button routerLink="a10">10</button>
+    <button routerLink="a11">11</button>
+    <button routerLink="a12">12</button>
+    <button routerLink="a13">13</button>
+    <button routerLink="a14">14</button>
+    <button routerLink="a15">15</button>
+    <button routerLink="a16">16</button>
+    <button routerLink="a17">17</button>
+    <button routerLink="a18">18</button>
+    <button routerLink="a19">19</button>
+    <button routerLink="a20">20</button>
+    <button routerLink="a21">21</button>
+    <button routerLink="a22">22</button>
+    <button routerLink="a23">23</button>
+    <button routerLink="a24">24</button>
+    <button routerLink="a25">25</button>
+    <button routerLink="a26">26</button>
+    <button routerLink="a27">27</button>
+    <button routerLink="a28">28</button>
+    <button routerLink="a29">29</button>
+    <button routerLink="a30">30</button>
+    <button routerLink="a31">31</button>
+    <router-outlet></router-outlet>
+  </ul>
+  </body>
+  </html>
+  
